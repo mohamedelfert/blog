@@ -3,6 +3,6 @@
 
     </head>
     <body>
-        <h1>Welcome From Dashboard</h1>
+        <h1>Welcome From {{ $title }}</h1>
     </body>
 </html>
