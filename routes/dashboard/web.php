@@ -8,6 +8,10 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
 
         Route::get('/index', 'WelcomeController@index')->name('welcome');
 
+        Route::get('/empty', function () {
+           return view('dashboard.empty');
+        })->name('empty');
+
     });
 
 });
