@@ -102,7 +102,7 @@ class PermissionsTableSeeder extends Seeder
                 'name' => 'dashboard-index',
                 'display_name' => 'الرئيسية',
                 'guard_name' => 'web',
-                'routes' => 'dashboard.index',
+                'routes' => 'dashboard.welcome',
             ],
         ];
 

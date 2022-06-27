@@ -30,6 +30,10 @@ return [
     'password_confirmation' => 'Password Confirm',
     'status' => 'Status',
     'role_name' => 'Role',
+    'add_role' => 'Add Role',
+    'show_role' => 'Show Role',
+    'edit_role' => 'Edit Role',
+    'delete_role' => 'Delete Role',
     'role_display_name' => 'Display Name',
     'roles_list' => 'Role List',
     'roles' => 'Roles',
@@ -57,6 +61,7 @@ return [
     'user' => 'User',
     'created_at' => 'Created At',
     'updated_at' => 'Updated At',
+    'components' => 'Components',
 
     'data_added_successfully' => 'Data Added Successfully',
     'data_updated_successfully' => 'Data Updated Successfully',

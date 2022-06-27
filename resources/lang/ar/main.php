@@ -30,6 +30,10 @@ return [
     'password_confirmation' => 'تأكيد كلمة المرور',
     'status' => 'الحالة',
     'role_name' => 'الصلاحية',
+    'add_role' => 'إضافة صلاحيه',
+    'edit_role' => 'تعديل صلاحيه',
+    'show_role' => 'عرض صلاحيه',
+    'delete_role' => 'حذف صلاحيه',
     'role_display_name' => 'اسم العرض',
     'roles_list' => 'قائمه الصلاحيات',
     'roles' => 'الصلاحيات',
@@ -57,6 +61,7 @@ return [
     'user' => 'مستخدم',
     'created_at' => 'تسجيل في',
     'updated_at' => 'تحديث في',
+    'components' => 'عناصر & صفحات',
 
     'data_added_successfully' => 'تم اضافه البيانات بنجاح',
     'data_updated_successfully' => 'تم تحديث البيانات بنجاح',

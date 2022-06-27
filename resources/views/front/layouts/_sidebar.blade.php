@@ -9,9 +9,9 @@
                 <ul class="nav navbar-nav side-menu" id="sidebarnav">
                     <!-- menu item Dashboard-->
                     <li>
-                        <a href="{{ route('dashboard.welcome') }}">
+                        <a href="#">
                             <div class="pull-left"><i class="ti-home"></i><span
-                                    class="right-nav-text">@lang('main.dashboard')</span></div>
+                                    class="right-nav-text">test</span></div>
                             <div class="clearfix"></div>
                         </a>
                     </li>
@@ -21,22 +21,22 @@
                     <li>
                         <a href="javascript:void(0);" data-toggle="collapse" data-target="#users_permissions">
                             <div class="pull-left">
-                                <i class="ti-user"></i>
-                                <span class="right-nav-text">@lang('main.users_permissions')</span>
+                                <i class="ti-hand-stop"></i>
+                                <span class="right-nav-text">test</span>
                             </div>
                             <div class="pull-right"><i class="ti-plus"></i></div>
                             <div class="clearfix"></div>
                         </a>
                         <ul id="users_permissions" class="collapse" data-parent="#sidebarnav">
-                            <li><a href="{{ route('dashboard.users.index') }}">@lang('main.users')</a></li>
-                            <li><a href="{{ route('dashboard.roles.index') }}">@lang('main.roles')</a></li>
+                            <li><a href="#">test</a></li>
+                            <li><a href="#">test</a></li>
                         </ul>
                     </li>
                     <!-- Settings -->
                     <li>
-                        <a href="{{ route('dashboard.settings.index') }}">
-                            <i class="ti-settings"></i>
-                            <span class="right-nav-text">@lang('main.settings')</span>
+                        <a href="#">
+                            <i class="ti-key"></i>
+                            <span class="right-nav-text">test</span>
                         </a>
                     </li>
                 </ul>
